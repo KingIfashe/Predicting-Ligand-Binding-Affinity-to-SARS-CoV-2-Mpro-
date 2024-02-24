@@ -1,4 +1,4 @@
-- Go into assessment
+- Go into Src
 
 - Before starting, unzip the assay_database file and make sure the name is actually 'assay_database.db'. 
 
