@@ -12,7 +12,7 @@
 
 - We calculated pIC50 values using f_avg_IC50 (collected from Fluorescence Assay) and r_avg_IC50 (Rapidfire Assay). 
 
-![image2](asset/pic3.png)
+![image2](asset/clean.png)
 
 - We ran predictions for each in tandem instead of taking an average.
 
