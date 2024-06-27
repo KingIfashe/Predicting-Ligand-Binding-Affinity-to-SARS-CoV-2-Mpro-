@@ -20,7 +20,7 @@
 
 ## [Random Forest](https://arxiv.org/abs/1407.7502)
 
-![image7](asset/rf.png)
+![image7](asset/rff.png)
 
 - A collection of Decision Trees, each trained on a random subset of the training data.
 
