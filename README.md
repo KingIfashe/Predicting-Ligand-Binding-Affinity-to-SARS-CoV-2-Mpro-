@@ -63,6 +63,79 @@
 
 - **Top 5 Most Important Features** Most Impactful: SMR_VSA10. Same top feature as Random Forest, but otherwise, a different ranking list
 
+## [Support Vector Machines](https://scikit-learn.org/stable/modules/svm.html)
+
+![image](asset/svm.png)
+
+- SVMs are supervised learning methods for classification, regression, and outlier detection.
+
+- Well-suited for complex but small- or medium-sized datasets. 
+
+- The primary objective of an SVM is to find a hyperplane in N-dimensional space (N — the number of features) that classifies the data points. 
+
+- In two dimensions, this hyperplane is a line dividing a plane into two parts where each class lies on either side.
+
+- Then, we have the support vectors, the data points closest to the hyperplane. 
+
+- These support vectors determine the position and orientation of the hyperplane.
+
+- Margin: It is the gap between the two lines on the closest class points. 
+
+- A good margin is one where this distance is maximised.
+
+- Linear Kernel is used when the data is linearly separable. It’s the simplest SVM kernel, essentially not transforming the space. 
+
+- Polynomial Kernel (poly): It represents the similarity of vectors/training samples in a feature space over polynomials of the original variables. 
+
+- Radial Basis Function (RBF) which is used to map an input space into infinite-dimensional space and is RBF is useful for non-linear hyperplanes. 
+
+- The final is Sigmoid Kernel, which functions like a two-layer model of neural networks, which simulates a neural network.
+
+### SVM Results
+
+![image](asset/svmresults.png)
+
+- Very poor results due to the use of a linear support vector machine. 
+
+## [Extended-Connectivity Fingerprints (ECFPs)](https://pubs.acs.org/doi/10.1021/ci100050t)
+
+![image](asset/ecfp.png)
+
+- ECFPs are a type of molecular fingerprint for structure-activity modelling and similarity searching. 
+
+- They are designed to capture the molecular structure and, to some extent, the chemical environment of atoms within a molecule. 
+
+- They represent a molecule by considering its atoms and the surrounding chemical environment. 
+
+- This involves looking at atoms, their bond types, and the paths between atoms up to a certain diameter (for example, ECFP4 has a diameter of 4).
+
+- Generating an ECFP begins with each atom in the molecule being assigned an initial identifier based on its atomic number and other atomic properties. 
+
+- Then, an iterative process begins where each atom's identifier is updated by considering its own identifier and the identifiers of its bonded atoms. 
+
+- Each iteration expands the "environment" by including identifiers of atoms further away. 
+
+- This captures the immediate atomic neighbourhood and more extended structures within the molecule. 
+
+- After several iterations, the identifiers (which may become quite large) are transformed to a fixed length to form the actual fingerprint bits, leading to different structural patterns.
+
+- The resulting binary fingerprint represents the presence or absence of substructures within the molecule.
+
+### ECFP Results for Random Forest, XGBoost, and Results SVMs
+
+![image](asset/ecfpresults.png)
+
+- The model showed better results when trained with ECFPs than other molecular descriptors.
+
+
+
+
+
+
+
+
+
+
 
 
 
