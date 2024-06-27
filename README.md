@@ -45,7 +45,7 @@
 
 ## [XGBoost](https://arxiv.org/abs/1603.02754)
 
-![image3](asset/pic4.png)
+![image3](asset/xgboost.png)
 
 - An Ensemble learning method – combines predictions of decision trees.
 
